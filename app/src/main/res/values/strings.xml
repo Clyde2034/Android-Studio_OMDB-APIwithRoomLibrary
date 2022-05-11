@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">OMDB API</string>
+
+    <string-array name="HardCode_title">
+        <item>The Shawshank Redemption</item>
+        <item>Batman: The Dark Knight Returns, Part 1</item>
+        <item>The Lord of the Rings: The Return of the King</item>
+        <item>Inception</item>
+        <item>The Matrix</item>
+    </string-array>
+    <integer-array name="HardCode_year">
+        <item>1994</item>
+        <item>2012</item>
+        <item>2003</item>
+        <item>2010</item>
+        <item>1999</item>
+    </integer-array>
+    <string-array name="HardCode_rated">
+        <item>R</item>
+        <item>PG-13</item>
+        <item>PG-13</item>
+        <item>PG-13</item>
+        <item>R</item>
+    </string-array>
+    <string-array name="HardCode_released">
+        <item>14 Oct 1994</item>
+        <item>25 Sep 2012</item>
+        <item>17 Dec 2003</item>
+        <item>16 Jul 2010</item>
+        <item>31 Mar 1999</item>
+    </string-array>
+    <string-array name="HardCode_runtime">
+        <item>142 min</item>
+        <item>76 min</item>
+        <item>201 min</item>
+        <item>148 min</item>
+        <item>136 min</item>
+    </string-array>
+    <string-array name="HardCode_genre">
+        <item>Drama</item>
+        <item>Animation, Action, Crime, Drama, Thriller</item>
+        <item>Action, Adventure, Drama</item>
+        <item>Action, Adventure, Sci-Fi</item>
+        <item>Action, Sci-Fi</item>
+    </string-array>
+    <string-array name="HardCode_director">
+        <item>Frank Darabont</item>
+        <item>Jay Oliva</item>
+        <item>Peter Jackson</item>
+        <item>Christopher Nolan</item>
+        <item>Lana Wachowski, Lilly Wachowski</item>
+    </string-array>
+    <string-array name="HardCode_writer">
+        <item>Lilly Wachowski, Lana Wachowski</item>
+        <item>Christopher Nolan</item>
+        <item>J.R.R. Tolkien, Fran Walsh, Philippa Boyens</item>
+        <item>Bob Kane (character created by: Batman), Frank Miller (comic book), Klaus Janson (comic book), Bob
+            Goodman</item>
+        <item>Stephen King, Frank Darabont</item>
+    </string-array>
+    <string-array name="HardCode_actors">
+        <item>Tim Robbins, Morgan Freeman, Bob Gunton</item>
+        <item>Peter Weller, Ariel Winter, David Selby, Wade Williams</item>
+        <item>Elijah Wood, Viggo Mortensen, Ian McKellen</item>
+        <item>Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page</item>
+        <item>Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss</item>
+    </string-array>
+    <string-array name="HardCode_plot">
+        <item>Two imprisoned men bond over a number of years, finding solace
+            and eventual redemption through acts of common decency.</item>
+        <item>Batman has not been seen for ten years. A new breed
+            of criminal ravages Gotham City, forcing 55 year old Bruce Wayne back
+            into the cape and cowl. But, does he still have what it takes to fight
+            crime in a new era?</item>
+        <item>Gandalf and Aragorn lead the World of Men against Sauron\'s army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</item>
+        <item>A thief who steals corporate secrets through the use of
+            dream-sharing technology is given the inverse task of planting an idea
+            into the mind of a C.E.O., but his tragic past may doom the project
+            and his team to disaster.</item>
+        <item>When a beautiful stranger leads computer hacker Neo to a
+            forbidding underworld, he discovers the shocking truth\-\-the life he
+            knows is the elaborate deception of an evil cyber intelligence.</item>
+    </string-array>
+</resources>

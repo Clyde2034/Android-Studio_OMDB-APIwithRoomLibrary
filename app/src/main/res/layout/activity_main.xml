@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:text="CLEAR SQLite"
+        app:layout_constraintBottom_toBottomOf="@id/btn_extendapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_extendapp"
+        app:layout_constraintTop_toTopOf="@id/btn_extendapp" />
+
+    <Button
+        android:id="@+id/btn_extendapp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Extend Application"
+        app:layout_constraintEnd_toStartOf="@id/btn_clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_search_extend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Movie Title All"
+        app:layout_constraintEnd_toEndOf="@id/btn_extendapp"
+        app:layout_constraintStart_toStartOf="@id/btn_extendapp"
+        app:layout_constraintTop_toBottomOf="@id/btn_extendapp" />
+
+    <Button
+        android:id="@+id/btn_AddMovieToDB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:autoSizeMaxTextSize="12sp"
+        android:autoSizeMinTextSize="6sp"
+        android:autoSizePresetSizes="12sp"
+        android:autoSizeStepGranularity="1sp"
+        android:autoSizeTextType="uniform"
+        android:text="Add Movies to DB"
+        app:layout_constraintEnd_toStartOf="@id/btn_SearchForMovies"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_search_extend" />
+
+    <Button
+        android:id="@+id/btn_SearchForMovies"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:autoSizeMaxTextSize="12sp"
+        android:autoSizeMinTextSize="6sp"
+        android:autoSizePresetSizes="12sp"
+        android:autoSizeStepGranularity="1sp"
+        android:autoSizeTextType="uniform"
+        android:text="Search for Movies"
+        app:layout_constraintBottom_toBottomOf="@id/btn_AddMovieToDB"
+        app:layout_constraintEnd_toStartOf="@id/btn_SearchForActors"
+        app:layout_constraintStart_toEndOf="@id/btn_AddMovieToDB"
+        app:layout_constraintTop_toTopOf="@id/btn_AddMovieToDB" />
+
+    <Button
+        android:id="@+id/btn_SearchForActors"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:autoSizeMaxTextSize="12sp"
+        android:autoSizeMinTextSize="6sp"
+        android:autoSizePresetSizes="12sp"
+        android:autoSizeStepGranularity="1sp"
+        android:autoSizeTextType="uniform"
+        android:text="Search for Actors"
+        app:layout_constraintBottom_toBottomOf="@id/btn_AddMovieToDB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_SearchForMovies"
+        app:layout_constraintTop_toTopOf="@id/btn_AddMovieToDB" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView_First"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_AddMovieToDB" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_Main"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
